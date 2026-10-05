@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="40dp"
-        android:text="Atrás"
+        android:text="Volver"
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
