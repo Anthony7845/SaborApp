@@ -22,7 +22,6 @@ class MenuActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_menu)
 
-        // Referencias
         txtBienvenida = findViewById(R.id.txtBienvenida)
         txtRol = findViewById(R.id.txtRol)
 
@@ -32,7 +31,6 @@ class MenuActivity : AppCompatActivity() {
         btnReportes = findViewById(R.id.btnReportes)
         btnSalir = findViewById(R.id.btnSalir)
 
-        // Recibir datos del Login
         val usuario = intent.getStringExtra("usuario")
         val rol = intent.getStringExtra("rol")
 
@@ -42,9 +40,6 @@ class MenuActivity : AppCompatActivity() {
         // Mostrar rol
         txtRol.text = "Rol: $rol"
 
-        // ==================================
-        // REPORTES SOLO PARA ADMIN
-        // ==================================
 
         if (rol == "ADMIN") {
 
@@ -54,10 +49,6 @@ class MenuActivity : AppCompatActivity() {
 
             btnReportes.visibility = android.view.View.GONE
         }
-
-        // ==================================
-        // PLATOS
-        // ==================================
 
         btnPlatos.setOnClickListener {
 
@@ -69,9 +60,6 @@ class MenuActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // ==================================
-        // MESAS
-        // ==================================
 
         btnMesas.setOnClickListener {
 
@@ -83,10 +71,6 @@ class MenuActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // ==================================
-        // PEDIDOS
-        // ==================================
-
         btnPedidos.setOnClickListener {
 
             val intent = Intent(
@@ -96,10 +80,6 @@ class MenuActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
-
-        // ==================================
-        // REPORTES
-        // ==================================
 
         btnReportes.setOnClickListener {
 
@@ -111,19 +91,14 @@ class MenuActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // ==================================
-        // SALIR
-        // ==================================
 
         btnSalir.setOnClickListener {
 
-            // Volver al Login
             val intent = Intent(
                 this,
                 MainActivity::class.java
             )
 
-            // Limpia las Activities anteriores
             intent.flags =
                 Intent.FLAG_ACTIVITY_NEW_TASK or
                         Intent.FLAG_ACTIVITY_CLEAR_TASK

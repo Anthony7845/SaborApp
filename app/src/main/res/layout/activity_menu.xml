@@ -14,8 +14,6 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- ENCABEZADO -->
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,16 +44,12 @@
             android:textStyle="bold"
             android:gravity="center" />
 
-        <!-- SEPARADOR -->
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:background="#E0CFC0" />
-
-        <!-- TÍTULO -->
 
         <TextView
             android:layout_width="match_parent"
@@ -65,8 +59,6 @@
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginBottom="16dp" />
-
-        <!-- PLATOS -->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnPlatos"
@@ -82,8 +74,6 @@
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
 
-        <!-- MESAS -->
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnMesas"
             android:layout_width="match_parent"
@@ -97,8 +87,6 @@
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
-
-        <!-- PEDIDOS -->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnPedidos"
@@ -114,8 +102,6 @@
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
 
-        <!-- REPORTES - SOLO ADMIN -->
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnReportes"
             android:layout_width="match_parent"
@@ -129,8 +115,6 @@
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
-
-        <!-- SALIR -->
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSalir"
