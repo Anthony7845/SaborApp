@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- ENCABEZADO -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SaborApp"
+            android:textColor="#5D2E1F"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Bienvenido"
+            android:textColor="#8A6A5A"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtRol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="ADMIN"
+            android:textColor="#B8860B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- SEPARADOR -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#E0CFC0" />
+
+        <!-- TÍTULO -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menú principal"
+            android:textColor="#5D2E1F"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- PLATOS -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlatos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Platos"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            app:icon="@android:drawable/ic_menu_agenda"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:cornerRadius="14dp" />
+
+        <!-- MESAS -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMesas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Mesas"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            app:icon="@android:drawable/ic_menu_myplaces"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:cornerRadius="14dp" />
+
+        <!-- PEDIDOS -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Pedidos"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            app:icon="@android:drawable/ic_menu_send"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:cornerRadius="14dp" />
+
+        <!-- REPORTES - SOLO ADMIN -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReportes"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Reportes"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            app:icon="@android:drawable/ic_menu_info_details"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:cornerRadius="14dp" />
+
+        <!-- SALIR -->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="Salir"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A94442"
+            app:icon="@android:drawable/ic_lock_power_off"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:cornerRadius="14dp" />
+
+    </LinearLayout>
+
+</ScrollView>
