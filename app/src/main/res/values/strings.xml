@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SaborApp</string>
+    <string name="platos_titulo">Carta de Platos</string>
+    <string name="platos_buscar">Buscar plato...</string>
+    <string name="platos_vacio">No se encontraron platos</string>
+    <string name="platos_agregar">Agregar plato</string>
 </resources>
