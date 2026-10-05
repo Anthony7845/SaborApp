@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var etClave: TextInputEditText
     private lateinit var btnIngresar: MaterialButton
 
-    private val url = "http://192.168.137.1/saborapp/login.php"
+    private val url = "http://192.168.106.61/saborapp/login.php"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
