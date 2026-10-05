@@ -35,7 +35,6 @@
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:backgroundTint="#5D2E1F"
-        app:icon="@android:drawable/ic_media_previous"
         app:iconGravity="textStart"
         app:iconPadding="12dp"
         app:cornerRadius="14dp" />

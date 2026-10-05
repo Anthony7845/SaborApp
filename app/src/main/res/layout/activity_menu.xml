@@ -69,7 +69,6 @@
             android:textStyle="bold"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp"
-            app:icon="@android:drawable/ic_menu_agenda"
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
@@ -83,7 +82,6 @@
             android:textStyle="bold"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp"
-            app:icon="@android:drawable/ic_menu_myplaces"
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
@@ -97,7 +95,6 @@
             android:textStyle="bold"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp"
-            app:icon="@android:drawable/ic_menu_send"
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
@@ -111,7 +108,6 @@
             android:textStyle="bold"
             android:gravity="center_vertical"
             android:layout_marginBottom="12dp"
-            app:icon="@android:drawable/ic_menu_info_details"
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
@@ -126,7 +122,6 @@
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:backgroundTint="#A94442"
-            app:icon="@android:drawable/ic_lock_power_off"
             app:iconGravity="textStart"
             app:iconPadding="16dp"
             app:cornerRadius="14dp" />
